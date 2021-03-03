@@ -1,6 +1,4 @@
-#FROM docker.artifactory.apps.ecicd.dso.ncps.us-cert.gov/openjdk/openjdk-8-rhel8:latest
 FROM registry.redhat.io/openjdk/openjdk-11-rhel8:latest
-#FROM docker-registry.default.svc:5000/openshift/openjdk-8-rhel8:latest
 EXPOSE 8080
 ENV HOME /opt/app
 ENV M2_HOME /home/jboss/.m2
