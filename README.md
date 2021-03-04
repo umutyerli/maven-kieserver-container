@@ -12,8 +12,19 @@ Main Prerequisites
 - Access to Images on registry.redhat.io
 
 Deploying on Openshift
-- OpenShift Cluster 3.11/4.xx
+- OpenShift Cluster 4.x
 - Docker Repository
+
+
+### Projects Being Used
+
+#### Kie Server Maven Project
+
+Inside the `kie-server` subdirectory is a maven project that creates a JAR file that contains an instance of Kie Server once ran. The original Kie Server project can be found https://github.com/nzhu972/mng-kieserver.
+
+#### Mortage Application: Example DM Project
+
+The example DM project being used by the Kie Server is an Example Mortgage Application, the project can be found here https://github.com/jbossdemocentral/rhdm7-loan-demo.
 
 ### TODO
 
